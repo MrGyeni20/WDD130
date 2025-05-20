@@ -1,3 +1,19 @@
+:root {
+    --main-bg-color: darkblue;
+    --text-light: white;
+    --text-dark: #333;
+    --accent-color: #eee;
+    --heading-color: darkblue;
+    --border-color: black;
+    --shadow: 0 0 30px gray;
+    --main-width: 700px;
+    --aside-width: 20rem;
+    --padding-small: 2px;
+    --padding-medium: 10px;
+    --padding-large: 20px;
+    --margin: 1rem;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
