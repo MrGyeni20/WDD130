@@ -1,11 +1,10 @@
-
 :root {
-  --primary-color: #0E103D;
-  --secondary-color: #D3BCC0;
-  --accent1-color: #A5668B;
-  --accent2-color: #F2D7EE;
+  --primary-color: #0E103D;        
+  --secondary-color: #D3BCC0;     
+  --accent1-color: #A5668B;        
+  --accent2-color: #F2D7EE;        
   --heading-font: "Bebas Neue", sans-serif;
-  --body-font: "Open Sans", sans-serif;
+  --body-font: "Open Sans", sans-serif;      
 }
 
 * {
@@ -36,6 +35,12 @@ nav, p, section, article {
 
 .socialmedia a {
   text-decoration: none;
+}
+
+.socialmedia img {
+  width: 32px;
+  height: 32px;
+  margin: 0 4px;
 }
 
 /* Hero section styling */
