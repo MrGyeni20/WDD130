@@ -1,10 +1,10 @@
 :root {
-  --primary-color: #0E103D;        
-  --secondary-color: #D3BCC0;     
-  --accent1-color: #A5668B;        
-  --accent2-color: #F2D7EE;        
+  --primary-color: #0E103D;
+  --secondary-color: #D3BCC0;
+  --accent1-color: #A5668B;
+  --accent2-color: #F2D7EE;
   --heading-font: "Bebas Neue", sans-serif;
-  --body-font: "Open Sans", sans-serif;      
+  --body-font: "Open Sans", sans-serif;
 }
 
 * {
@@ -16,6 +16,7 @@
 body {
   font-family: var(--body-font);
   color: var(--accent1-color);
+  background-color: white;
 }
 
 header, main, footer {
@@ -33,6 +34,40 @@ nav, p, section, article {
   padding: 8px;
 }
 
+header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+}
+
+header img {
+  width: 80px;
+  height: auto;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  padding: 0;
+}
+
+nav li a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+nav li a:hover {
+  color: var(--accent1-color);
+}
+
 .socialmedia a {
   text-decoration: none;
 }
@@ -43,7 +78,6 @@ nav, p, section, article {
   margin: 0 4px;
 }
 
-/* Hero section styling */
 .hero {
   position: relative;
 }
@@ -63,6 +97,7 @@ nav, p, section, article {
   opacity: 0.7;
   background-color: var(--accent1-color);
   color: #fff;
+  font-size: 2.5rem;
 }
 
 .hero article {
